@@ -79,8 +79,8 @@ body {
     width: 100%;
     color: white;
     background-color: hsl(248, 32%, 49%);
-    padding: 13px;
-    margin: 10px 0;
+    padding: 13px 13px;
+    margin: 0px 0;
     text-align: center;
     border: 2px solid hsl(248, 32%, 49%);
     border-radius: 10px;
@@ -94,7 +94,7 @@ form {
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 365px;
+    height: 370px;
     width: 100%;
     margin: 20px 0px;
 
@@ -116,10 +116,11 @@ button {
     color: white;
     margin: 10px;
     padding: 12px;
-    border: 2px solid hsl(154, 76%, 37%);
+    border: thin solid transparent;
     border-radius: 5px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     cursor: pointer;
+    box-shadow: 0px 2px 2px hsl(154, 76%, 37%);
 
 }
 
@@ -133,6 +134,7 @@ button {
 a {
     text-decoration: none;
     color: hsl(0, 100%, 74%);
+    font-weight: bolder;
 }
 
 
@@ -155,7 +157,7 @@ a {
         /* margin: auto; */
 
         padding: 0px 0px 35px 0px;
-        margin: 5px;
+        margin: 5px 20px;
         /* justify-content: center;
         align-items: center; */
 
@@ -214,17 +216,19 @@ a {
     form {
         /* margin-bottom: 10px; */
     }
+    .tryfree {
+        width: 100%;
+            color: white;
+            background-color: hsl(248, 32%, 49%);
+        padding: 5px 70px;
+        margin: 10px 0;
+    }
+        .downpara {
+            font-size: 12px;
+            
+        }
+            
+    
 }
 
-.tryfree {
-    width: 100%;
-    color: white;
-    background-color: hsl(248, 32%, 49%);
-    padding: 5px 70px;
-    margin: 10px 0;
-    text-align: center;
-    border: 2px solid hsl(248, 32%, 49%);
-    border-radius: 10px;
-    font-size: 13px;
-    box-shadow: 0px 3px 3px 3px hsla(240, 100%, 1%, 0.164);
-}
+
