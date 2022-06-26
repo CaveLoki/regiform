@@ -18,17 +18,18 @@ body {
 .baller {
     width: 90%;
     margin: auto;
-    display: flex;   
+    display: flex;
     margin-top: 7%;
     justify-content: center;
     align-items: center;
     /* height: 500px; */
     /* border: 1px solid black; */
     padding: 15px;
-   
-    
+
+
 }
-.left{
+
+.left {
     /* padding: 10px 0px; */
     font-size: 16px;
     /* border: 1px solid black; */
@@ -39,39 +40,42 @@ body {
     margin-left: 30px;
     padding-left: 20px;
 }
-.left h1{
+
+.left h1 {
     text-align: left;
     /* border: 1px solid black; */
     padding: 0px 100px 20px 0px;
     padding-right: 40px;
-    
+
     font-size: 43px;
     line-height: 45px;
-    
+
 
 }
-.left p{
+
+.left p {
     text-align: left;
     font-size: 14px;
     padding-right: 30px;
     /* border: 1px solid black; */
-    
-    
+
+
 }
-.right{
-   
+
+.right {
+
     border: 2px solid transparent;
     flex: 50%;
     /* border: 1px solid black; */
-    
+
     /* padding: 35px 25px; */
     height: 100%;
     padding-right: 50px;
-    
-    
+
+
 }
 
-.tryfree{
+.tryfree {
     width: 100%;
     color: white;
     background-color: hsl(248, 32%, 49%);
@@ -82,30 +86,32 @@ body {
     border-radius: 10px;
     font-size: 13px;
     box-shadow: 0px 3px 3px 3px hsla(240, 100%, 1%, 0.164);
-    
+
 
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     background-color: white;
     height: 365px;
     width: 100%;
     margin: 20px 0px;
-    
+
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 3px 3px 3px hsla(240, 100%, 1%, 0.164);
 }
-input{
+
+input {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     border: thin solid hsla(240, 100%, 1%, 0.075);
     height: 40px;
 }
-button{
+
+button {
     background-color: hsl(154, 59%, 51%);
     color: white;
     margin: 10px;
@@ -114,16 +120,17 @@ button{
     border-radius: 5px;
     font-weight: bolder;
     cursor: pointer;
-    
+
 }
-.downpara{
+
+.downpara {
     font-size: 10px;
     color: black;
     text-align: center;
     padding-bottom: 13px;
 }
 
-a{
+a {
     text-decoration: none;
     color: hsl(0, 100%, 74%);
 }
@@ -132,77 +139,83 @@ a{
 
 
 
-@media screen and (max-width: 375px){
-    body{
+@media screen and (max-width: 375px) {
+    body {
         background-image: url(./bg-intro-mobile\ \(1\).png);
         font-size: 16px;
         /* height: 125vh; */
         /* padding: 10px; */
-        
-        
+
+
     }
-    .baller{
+
+    .baller {
         /* flex-direction: column; */
         flex-wrap: wrap;
         /* margin: auto; */
-          
+
         padding: 0px 0px 35px 0px;
         margin: 5px;
         /* justify-content: center;
         align-items: center; */
-       
+
         /* border: 1px solid black; */
-         
-       
+
+
     }
-    
-    .right{
+
+    .right {
         border: 2px solid transparent;
         flex: 100%;
         /* border: 1px solid black; */
         width: 100%;
-        
-        
+
+
         padding: 0px 5px;
         /* height: 100%;
         padding: auto;
         */
-        
+
     }
-    .left{
+
+    .left {
         /* padding: 10px 0px; */
         font-size: 16px;
         /* border: 1px solid black; */
         /* margin: 20px 0px; */
         /* margin-right: 70px; */
-        
+
         flex: 100%;
         margin: 0px;
         padding: 0px;
         padding-bottom: 50px;
-       
-    } 
-    .left h1{
+
+    }
+
+    .left h1 {
         text-align: center;
         font-size: 30px;
         line-height: 32.5px;
-        
+
         padding: 90px 0px 15px 0px;
         /* border: 1px solid black; */
-       
+
 
     }
-    .left p{
+
+    .left p {
         text-align: center;
         /* border: 1px solid black; */
         padding: 0px 5px;
         font-size: 16px;
         margin: 0px;
     }
-    form{
+
+    form {
         /* margin-bottom: 10px; */
-    } 
+    }
 }
+
 .tryfree {
     width: 100%;
     color: white;
@@ -210,8 +223,8 @@ a{
     padding: 5px 70px;
     margin: 10px 0;
     text-align: center;
-    /* border: 2px solid hsl(248, 32%, 49%);
+    border: 2px solid hsl(248, 32%, 49%);
     border-radius: 10px;
     font-size: 13px;
-    box-shadow: 0px 3px 3px 3px hsla(240, 100%, 1%, 0.164); */
+    box-shadow: 0px 3px 3px 3px hsla(240, 100%, 1%, 0.164);
 }
